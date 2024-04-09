@@ -1,0 +1,15 @@
+{
+    "name": "jaystrongzhongjie/payment",
+    "description": "支付宝、银联、虚拟货币支付等",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Payment\\": "src/Payment"
+        }
+    },
+    "minimum-stability": "dev"
+}
